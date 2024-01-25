@@ -37,6 +37,7 @@ li{
 li a{
     text-decoration: none;
     color: white;
+    text-decoration: #561C24;
 }
 
 .container {
@@ -130,4 +131,12 @@ button:hover{
     padding: 10px;
     display: inline-block;
     margin: 20px auto;
+}
+
+.textono{
+    display: none;
+}
+
+.tituno{
+    display: none;
 }
