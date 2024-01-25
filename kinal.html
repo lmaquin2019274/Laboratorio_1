@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio</title>
+    <link rel="stylesheet" href="./css/kinal.css">
+</head>
+<body>
+
+    <header>
+        <h1>Fundación Kinal</h1>
+    </header>
+
+    <nav>
+        <a href="#inicio" onclick="mostrarSeccion('inicio')">Inicio</a>
+        <a href="#noticias" onclick="mostrarSeccion('noticias')">Noticias</a>
+        <a href="#eventos" onclick="mostrarSeccion('eventos')">Eventos</a>
+        <a href="#sponsors" onclick="mostrarSeccion('sponsors')">Sponsors</a>
+    </nav>
+
+    <main>
+        <div id="inicio" class="seccion visible">
+            <h2>Bienvenido al Colegio</h2>
+            <p>Contenido de la sección de Inicio.</p>
+        </div>
+
+        <div id="noticias" class="seccion">
+            <h2>Últimas Noticias</h2>
+            <p>Contenido de la sección de Noticias.</p>
+        </div>
+
+        <div id="eventos" class="seccion">
+            <h2>Próximos Eventos</h2>
+            <p>Contenido de la sección de Eventos.</p>
+        </div>
+
+        <div id="sponsors" class="seccion">
+            <h2>Nuestros sponsors</h2>
+            <p>Contenido de la sección de Sponsors.</p>
+        </div>
+    </main>
+
+    <script src="./javaScript/kinal.js"></script>
+
+</body>
+</html>
