@@ -16,16 +16,11 @@ header {
 }
 
 .titulo{
+    font-size: 100px;
+    z-index: 2;
+    color: white;
 }
 
-.sombra{
-    position: absolute;
-    margin-top: -250px;
-    margin-left: -150px;
-    height: 400px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.577);
-}
 
 nav {
     display: flex;
@@ -44,6 +39,9 @@ nav a {
 
 main {
     padding: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(26, 31, 72);
 }
 
 .seccion {
@@ -52,4 +50,92 @@ main {
 
 .seccion.visible {
     display: block;
+}
+
+main p{
+    width: 500px;
+    height: auto;
+    overflow-wrap: break-word;
+    border: 1px solid #2c2c2c;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 25px;
+}
+
+main h2{
+    font-size: 40px;
+    color: white;
+}
+
+.vene{
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.tecnica{
+    margin-left: 400px;
+    position: inherit;
+    height: 300px;
+    width: 250px;
+    background-color: orange;
+    text-align: center;
+    align-items: center;
+}
+.tecnica h4{
+    color: orange;
+}
+
+.basico{
+    margin-left: 700px;
+    margin-top: -320px;
+    position: inherit;
+    height: 300px;
+    width: 250px;
+    background-color: orangered;
+    text-align: center;
+    align-items: center;
+}
+.basico h4{
+    color: orangered;
+}
+
+.diver{
+    margin-left: 1000px;
+    margin-top: -320px;
+    position: inherit;
+    height: 300px;
+    width: 250px;
+    background-color: red;
+    text-align: center;
+    align-items: center;
+}
+.diver h4{
+    color: red;
+}
+
+.total{
+    margin-left: 1300px;
+    margin-top: -320px;
+    position: inherit;
+    height: 300px;
+    width: 250px;
+    background-color: rgb(157, 0, 34);
+    text-align: center;
+    align-items: center;
+}
+.total h4{
+    color: rgb(157, 0, 34);;
+}
+
+.vene h3{
+    color: white;
+    font-size: 60px;
+}
+
+.vene l{
+    font-size: 20px;
+    color: white;
 }
