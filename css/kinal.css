@@ -6,10 +6,25 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-image: url('https://static.wixstatic.com/media/128120_7f3b9fbf981448809326f69585851cb9~mv2.jpg/v1/fill/w_1130,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/128120_7f3b9fbf981448809326f69585851cb9~mv2.jpg');
+    background-size: cover;
+    background-position-y: center;
+    position: relative;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 150px;
+}
+
+.titulo{
+}
+
+.sombra{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: -150px;
+    height: 400px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.577);
 }
 
 nav {

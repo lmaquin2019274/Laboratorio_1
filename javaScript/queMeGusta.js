@@ -12,18 +12,6 @@ var init = function() {
         carousel.style.transform = 'translateZ( -288px ) rotateY(' + theta + 'deg)';
         updateText(currentPanel);
       };
-
-<<<<<<< HEAD
-    for (var i=0; i < 2; i++) {
-      navButtons[i].addEventListener( 'click', onNavButtonClick, false);
-      if(i == 1){
-        document.getElementById("titu1").className = "titu";
-        document.getElementById("txt1").className = "texto";
-
-        document.getElementById("titu2").className = "tituno";
-        document.getElementById("txt2").className = "textono";
-      }
-=======
   for (var i=0; i < 2; i++) {
     navButtons[i].addEventListener( 'click', onNavButtonClick, false);
   }
@@ -34,7 +22,6 @@ var init = function() {
     for (var i = 1; i <= panelCount; i++) {
       document.getElementById('txt' + i).style.display = 'none';
       document.getElementById('titu' + i).style.display = 'none';
->>>>>>> eb37f311638442bc73892c35121c496612ded94f
     }
 
     // Show text and title for the current panel
