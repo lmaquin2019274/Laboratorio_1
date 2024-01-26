@@ -12,7 +12,7 @@ header {
     position: relative;
     color: white;
     text-align: center;
-    padding: 150px;
+    padding: 130px;
 }
 
 .titulo{
@@ -62,11 +62,19 @@ main p{
     margin: 20px auto;
     background-color: white;
     border-radius: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main h2{
     font-size: 40px;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main h3{
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .vene{
@@ -138,4 +146,35 @@ main h2{
 .vene l{
     font-size: 20px;
     color: white;
+}
+
+.ladrillo{
+     position: absolute;
+     margin-left: -600px;
+}
+
+.histo{
+    margin-left:600px;
+}
+
+.humana{
+    margin-top: -20px;
+    width: 500px;
+    height: auto;
+    overflow-wrap: break-word;
+    border: 1px solid #2c2c2c;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.forma{
+    margin-left: -630px;
+}
+
+.casa{
+    position: absolute;
+    margin-left: 600px;
 }
