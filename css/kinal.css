@@ -44,6 +44,12 @@ main {
     background-color: rgb(26, 31, 72);
 }
 
+h4{
+    color: rgb(26, 31, 72);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
 .seccion {
     display: none;
 }
@@ -175,5 +181,11 @@ main h3{
 
 .casa{
     position: absolute;
-    margin-top: 120px;
+    margin-top: 180px;
+}
+.casa2{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: -300px;
+    width: 600px;
 }
